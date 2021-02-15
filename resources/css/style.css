@@ -81,6 +81,8 @@ nav.mobile {
     display: none;
 }
 
+/* HEADER SECTION - MOBILE */
+
 @media only screen and (max-width: 1000px) {
 
     #logo,
@@ -104,7 +106,6 @@ nav.mobile {
 /* MAIN SECTION*/
 
 main {
-    position: relative;
     display: inline-flex;
     flex-direction: column;
     padding-top: 64px;
@@ -155,6 +156,8 @@ main {
     height: 64px;
 }
 
+/* BANNER SECTION - MOBILE */
+
 @media only screen and (max-width: 1000px) {
 
     .banner {
@@ -177,7 +180,6 @@ main {
 
 .articles {
     display: inline-flex;
-    position: relative;
 }
 
 .articles-left {
@@ -212,7 +214,6 @@ main {
     flex-direction: column;
 }
 
-
 .articles-right-box {
     display: inline-flex;
 }
@@ -223,7 +224,7 @@ main {
 }
 
 .articles-right-picture img.articles-desktop {
-    max-width: 100%;
+    width: 100%;
 }
 
 .articles-right-picture img.articles-mobile {
@@ -254,6 +255,8 @@ main {
 .articles-right-box.gray-background {
     background-color: #afafaf;
 }
+
+/* ARTICLE SECTION - MOBILE */
 
 @media only screen and (max-width: 1000px) {
 
@@ -294,7 +297,6 @@ main {
     }
 
     .articles-right-box.gray-background {
-        width: 100%;
         padding-bottom: 32px;
     }
 
@@ -303,6 +305,75 @@ main {
 /* COURSES SECTION */
 
 .courses {
-    display: inline-flex;
+    padding: 32px 56px 16px 56px;
+    background-color: #afafaf;
+    color: #464646;
 }
 
+.courses h1 {
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.courses-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.courses-box {
+    max-width: 33.33%;
+    padding: 16px;
+    width: 100%;
+}
+.courses-box-picture img {
+    width: 100%;
+}
+
+a .courses-box-text {
+    color: #464646;
+}
+.courses-box-text {
+    background-color: #ffffff;
+    padding: 16px;
+    min-height: 176px;
+    width: 100%;
+}
+
+.courses-box-text h4 {
+    padding: 8px 0;
+}
+
+/* COURSES SECTION - MOBILE */
+
+@media only screen and (max-width: 1000px) {
+
+    .courses {
+        background-color: #ffffff;
+        padding: 32px 16px;
+    }
+
+    .courses-box-picture,
+    .courses-box-text h4,
+    .courses-box-text p {
+        display: none;
+    }
+
+    .courses-box {
+        max-width: 100%;
+        padding: 4px 0;
+    }
+
+    .courses-box-text {
+        background-color: #afafaf;
+        min-height: auto;
+    }
+
+}
+
+/* THESIS SECTION - MOBILE */
+
+
+
+
+/* THESIS SECTION - MOBILE */
