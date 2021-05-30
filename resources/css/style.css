@@ -471,6 +471,11 @@ footer {
     color: #464646;
 }
 
+.source {
+    text-decoration: underline;
+    padding: 0;
+}
+
 footer a {
     color: #464646;
     padding: 0 8px;
