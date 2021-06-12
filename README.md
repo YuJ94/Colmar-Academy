@@ -8,9 +8,10 @@ A landing page for a new academy using an existing wireframe and CSS flexbox pro
 Click [here](https://yuj94.github.io/colmar-academy/) to visit the website.
 
 ## Technologies
-Project was created with:
+Project was built with:
 - HTML
 - CSS
+- GitHub
 
 ## Status
 Project is completed.
