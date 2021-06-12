@@ -1,10 +1,6 @@
 # Colmar Academy
 A landing page for a new academy using an existing wireframe and CSS flexbox properties.
 
-
-## Screenshot
-![preview of landing page](image.jpg)
-
 ## Visit
 Click [here](https://yuj94.github.io/colmar-academy/) to visit the website.
 
