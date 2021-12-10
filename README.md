@@ -1,13 +1,13 @@
 # Colmar Academy
-A landing page for a new academy using an existing wireframe and CSS flexbox properties.
+A landing page for a new academy using an existing wireframe provided by Codecademy.
 
 ## Screenshot
 ![preview of landing page](./resources/images/colmar-academy.jpg)
 
 ## Visit
-Click [here](https://yuj94.github.io/colmar-academy/) to visit the website.
+To view this website live, please visit [here](https://yuj94.github.io/colmar-academy/).
 
-## Technologies
+## Technologies Used
 Project was built with:
 - HTML
 - CSS
